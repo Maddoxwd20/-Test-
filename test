@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body {adjust-size:1000em}
+         
+            #title {color: rgb(232, 81, 0);
+                font-family: helvetica;
+            }
+            h2 {font-family: helvetica;}
+
+            #location {color: rgb(200, 20, 40);}
+            #logo {position: absolute;
+            top: 20px;
+            left: 218px;
+            }
+            #org {
+            }
+            .scenery {border: 3.8px solid rgb(200,50,75);}
+            
+            #goodcare {border-left: 3.3px solid rgb(235, 80, 79);
+                padding: 6px;
+            }
+            #list-detail {border-bottom: 2px solid red;
+                padding-bottom: 6px;
+            }
+            #scenery-word {border-left: solid 3.3px rgb(235, 80, 79);
+                padding: 6px;}
+            
+            #saruman {color: rgb(230, 104, 104);}
+            
+            #saruman-img {border: inset 3.6px rgb(230, 116, 60);}
+            
+            #pictured {font-size: 12px;
+                border-bottom: solid 2px rgb(235, 48, 38);
+            }
+            
+            #hobbit-reviews-title {color: rgb(217, 99, 76);}
+        </style>
+    </head>
+    <body>
+        
+
+        <h1 id="title">You're invited!</h1>
+        <h2 id="org">Isengard</h2>
+        <h3 id="location"> Location: Isengard
+        </h3>
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Escudo_Isengard.svg/120px-Escudo_Isengard.svg.png" width="130px">
+        <h3>Important details:</h3>
+        <ul id="list-detail">
+            <li>Doors always open</li>
+            <li>Please bring any hobbits you come across</li>
+        </ul>
+        <p id="goodcare">The hobbits you bring will be taken good <br> care of in our facilities. Every hobbit that enters <br> leaves <em>relaxed</em> and <em>chilled</em>.</p>
+        <img class="scenery" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Dart_River_upstream.jpg/250px-Dart_River_upstream.jpg" width="350">
+        <h3>Scenery!</h3>
+        <p id="scenery-word">The hobbits that visit get to view amazing scenery <br>throughout their visit to Isengard. Along with that the <!--<br>!--> trip to Isengard is full of beautiful sites wether you <!--<br>!--> come from The Shire or the Havens of Umbar the views <!--<br>!--> are amazing.</p>
+       <h2 id="saruman">Saruman</h2> <img id="saruman-img" src="https://upload.wikimedia.org/wikipedia/en/a/aa/Christopher_Lee_as_Saruman_LOTR.jpg" width="250">
+        <p id="pictured">Pictured Above Is Our Great Friend Saruman. He is considered a good friend of the hobbits!</p>
+        <h2 id="hobbit-reviews-title">REAL REVIEWS FROM HOBBITS!!!</h2>
+        <ul>
+            <li>"He was saruman the white"</li>
+            <li>"Saruman uhhhh. Idk. Hm. He had a cool staff ig. Had an <strong>orb</strong>"</li>
+        </ul>
+    </body>
+</html>
